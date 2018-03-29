@@ -5,7 +5,7 @@ class Sine
   attr_reader :freq
   def initialize(freq, sample_rate=44100)
     @freq = freq
-	@sample_rate = sample_rate
+    @sample_rate = sample_rate
   end
   
   def snapshot(sample_num)
