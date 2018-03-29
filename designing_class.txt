@@ -2,6 +2,7 @@ Sine :: freq -> SineObj
 
 SinObj {
   freq: frequency
+  sample_rate: sample rate
   snapshot: Sample -> Amplitude
   samples: Sample -> [Snapshot]
 }
